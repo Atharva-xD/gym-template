@@ -71,7 +71,7 @@ const Contact = () => {
 
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Form */}
-          <div className="animate-slide-in-left">
+          <div className="animate-slide-in-left space-y-8">
             <Card className="glass-card energy-border border-0">
               <CardContent className="p-8">
                 <div className="flex items-center mb-6">
@@ -153,6 +153,114 @@ const Contact = () => {
                     <Send className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                   </Button>
                 </form>
+              </CardContent>
+            </Card>
+
+            {/* Additional Info Card */}
+            <Card className="glass-card border-0">
+              <CardContent className="p-6">
+                <h4 className="font-bold mb-4 flex items-center">
+                  <MessageCircle className="h-5 w-5 text-primary mr-2" />
+                  WHAT TO EXPECT
+                </h4>
+                <div className="space-y-3 text-sm">
+                  <div className="flex items-start">
+                    <div className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                    <p className="text-muted-foreground">
+                      We'll respond within 24 hours with personalized recommendations
+                    </p>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                    <p className="text-muted-foreground">
+                      Free consultation and facility tour included
+                    </p>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                    <p className="text-muted-foreground">
+                      No pressure sales - we focus on your fitness goals
+                    </p>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                    <p className="text-muted-foreground">
+                      Expert trainers available for personalized guidance
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Why Choose Us Card */}
+            <Card className="glass-card border-0">
+              <CardContent className="p-6">
+                <h4 className="font-bold mb-4 flex items-center">
+                  <MessageCircle className="h-5 w-5 text-primary mr-2" />
+                  WHY CHOOSE FITFORCE
+                </h4>
+                <div className="space-y-3 text-sm">
+                  <div className="flex items-start">
+                    <div className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                    <p className="text-muted-foreground">
+                      State-of-the-art equipment and facilities
+                    </p>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                    <p className="text-muted-foreground">
+                      Certified personal trainers and nutrition experts
+                    </p>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                    <p className="text-muted-foreground">
+                      Flexible membership options to fit your lifestyle
+                    </p>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                    <p className="text-muted-foreground">
+                      Supportive community of fitness enthusiasts
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Membership Benefits Card */}
+            <Card className="glass-card border-0">
+              <CardContent className="p-6">
+                <h4 className="font-bold mb-4 flex items-center">
+                  <MessageCircle className="h-5 w-5 text-primary mr-2" />
+                  MEMBERSHIP BENEFITS
+                </h4>
+                <div className="space-y-3 text-sm">
+                  {/* <div className="flex items-start">
+                    <div className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                    <p className="text-muted-foreground">
+                      24/7 access to premium fitness facilities
+                    </p>
+                  </div> */}
+                  <div className="flex items-start">
+                    <div className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                    <p className="text-muted-foreground">
+                      Personalized workout plans and progress tracking
+                    </p>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                    <p className="text-muted-foreground">
+                      Access to exclusive fitness classes and workshops
+                    </p>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                    <p className="text-muted-foreground">
+                      Monthly fitness challenges and rewards program
+                    </p>
+                  </div>
+                </div>
               </CardContent>
             </Card>
           </div>

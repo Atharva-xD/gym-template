@@ -100,7 +100,7 @@ const Membership = () => {
         </div>
 
         {/* Pricing Cards */}
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
+        <div className="grid md:grid-cols-3 gap-8 mb-16 pt-6">
           {plans.map((plan, index) => {
             const IconComponent = plan.icon;
             const colorClasses = getColorClasses(plan.color, plan.popular);
@@ -112,8 +112,8 @@ const Membership = () => {
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 {plan.popular && (
-                  <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                    <div className="bg-primary text-primary-foreground px-6 py-2 rounded-full text-sm font-bold uppercase tracking-wider animate-pulse-glow">
+                  <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-20">
+                    <div className="bg-primary text-white px-6 py-2 rounded-full text-sm font-bold uppercase tracking-wider shadow-lg">
                       Most Popular
                     </div>
                   </div>
